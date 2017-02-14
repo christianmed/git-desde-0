@@ -8,5 +8,4 @@ Sistema de control de versiones  para el mantenimiento eficiente y confiable de 
 
 ###Flujo de trabajo básico en Git
 1.Prueba 1
-2.Prueba 2
-3.Prueba 3
+2.Prueba 2 3.Prueba 3
