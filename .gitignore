@@ -38,6 +38,9 @@ jspm_packages
 # Optional npm cache directory
 .npm
 
+# Optional vscode project settings directory
+.vscode
+
 # Optional eslint cache
 .eslintcache
 
