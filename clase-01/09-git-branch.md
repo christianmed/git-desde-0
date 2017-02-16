@@ -41,4 +41,10 @@ Con el comando:
 ```
 git branch --merged
 ```
-Mostramos cuáles ramas han sido fisionadas con la rama actual.
+Mostramos cuáles ramas han sido fusionadas con la rama actual.
+
+Con el comando:
+```
+git checkout -b name_branch
+```
+De forma simultánea creamos una nueva rama llamada branch_name y saltamos o nos movemos a ella.
