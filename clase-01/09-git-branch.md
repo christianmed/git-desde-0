@@ -16,3 +16,5 @@ Con el comando:
 git checkout nombre_rama
 ```
 Nos podemos mover a una rama específica.
+
+Nosotros podemos crear cuantas ramas queramos y/o necesitemos. Las ramas nuevas que se rean apuntan al commit actual.
