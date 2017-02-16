@@ -18,3 +18,27 @@ git checkout nombre_rama
 Nos podemos mover a una rama específica.
 
 Nosotros podemos crear cuantas ramas queramos y/o necesitemos. Las ramas nuevas que se rean apuntan al commit actual.
+
+Con el comando:
+```
+git branch -d nombre_rama
+```
+Borramos la rama nombre_rama si es que ya fue fusionada con la rama actual.
+
+Con el comando:
+```
+git branch -D nombre_rama
+```
+Borramos la rama nombre_rama haya sido o no fusionada con la rama actual. Su fuerza el borrado y se pierden todos los cambios.
+
+Con el comando:
+```
+git branch --no-merged
+```
+Mostramos cuáles ramas no han sido fisionadas con la rama actual.
+
+Con el comando:
+```
+git branch --merged
+```
+Mostramos cuáles ramas han sido fisionadas con la rama actual.
