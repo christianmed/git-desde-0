@@ -1,5 +1,9 @@
 ## git tag
-Permite agregar atiquetas a los commits
+El comando:
+```
+git tag
+```
+Lista las etiquetas que se hayan creado en orden alfabético.
 
 Hay dos tipos de etiquetas:
 1. Etiquetas ligeras
@@ -18,3 +22,9 @@ Se guardan en la base de datos de Git como objetos enteros. Contienen el nombre 
 git -a mi_etiqueta -m "mi_mensaje"
 ```
 Se usan para marcar puntos importantes en nuestros proyectos tales como versiones estables, etc.
+
+###Listar etiquetas de acuerdo un patrón
+Comando:
+```
+git tag -l "patron" | git tag -l "v.1.*"
+```

@@ -1,5 +1,8 @@
 ### Git Log
-Muestra todo el historial de commits del proyecto.
+Muestra el historial de commits del proyecto desde el punto en el que estemos hacia atrás.
+
+`git log --all`
+Muestra el todo historial de commits sin importar el punto en el que estemos.
 
 `git log --pretty=format:"%h - %an, %ar : %s"`
 Muestra el historial con el formato que indicamos.
